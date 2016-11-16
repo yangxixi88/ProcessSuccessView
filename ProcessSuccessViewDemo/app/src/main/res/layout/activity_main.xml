@@ -1,0 +1,38 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:apps="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00AAA4"
+    tools:context="yangxixi.processsuccessviewdemo.ui.MainActivity">
+
+    <yangxixi.processsuccessviewdemo.ui.views.ProcessSuccessView
+        android:id="@+id/processview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        apps:isShowTriAngle="show"
+        apps:arcWidth="2dp"
+        apps:scale="0.5"/>
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/processview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-50dp"
+        android:text="手机很干净"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="开始" />
+</RelativeLayout>
