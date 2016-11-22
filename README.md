@@ -1,6 +1,8 @@
 # ProcessSuccessView
 高仿小米"安全中心"中垃圾清理成功后的显示界面
 
+详细用法见：http://www.jianshu.com/p/604a6976f82b
+
 ![][viewgif]
 [viewgif]:https://github.com/yangxixi88/ProcessSuccessView/blob/master/cleanAnimotion.gif
 
